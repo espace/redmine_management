@@ -1,7 +1,7 @@
 require 'redmine'
-require 'dispatcher'
+#require 'dispatcher'
 
-Dispatcher.to_prepare do
+Rails.configuration.to_prepare do
   require_dependency 'project'
   require 'project_patch2'
   Project.send( :include, ProjectPatch)
