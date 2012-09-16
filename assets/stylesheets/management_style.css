@@ -1,0 +1,31 @@
+#burnup_chart,#effort_burnup_chart{
+	margin-left: 5px;
+	text-align:center;
+	width: 100%;
+	max-width: 65%;
+	height: 400px;
+	clear:left;
+}
+
+.chart_title{
+	font-size:1.5em;
+}
+
+div.right_box{
+	float:right;
+	max-width: 30%;
+	margin: 0 50px 10px 50px;
+	clear: right;
+}
+
+div#more_stats p{
+	font-size:1.5em;
+}
+
+.vertical_text{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	-webkit-transform: rotate(-90deg); 
+	-moz-transform: rotate(-90deg);	
+}
